@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e07e5b;
+}
+
+.container {
+    max-width: 700px;
+    height: auto;
+    margin: 30px auto;
+    padding: 10px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.container h1 {
+    font-size: 35px;
+}
+
+.senha-gerada {
+    font-size: 2em;
+    color: #e07e5b;
+    margin: 40px 0;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.gerar-senha {
+    position: absolute;
+    left: 48%;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background-color: #ee8659;
+    color: #222121;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.gerar-senha:hover {
+    background-color: #c55025;
+    cursor: pointer;
+    color: #ffffff;
+}
